@@ -10,7 +10,7 @@ Given an array of integers 'nums' and an integer 'target', return indices of the
 "First, we create an empty array to store the indices.
 Then, we run a for loop within a while loop, checking the condition that the sum equals the target sum.
 If it does, we store the index of that element in the ans vector. After completing the loop, we return ans."
-"Since the time complexity of the code is (O(n*n)), which gives TLE. Hence, we look for an optimal approach.
+"Since the time complexity of the code is (O(n*n)), which gives TLE. Hence, we look for an optimal approach."
 ```cpp
 class Solution {
 public:
@@ -34,9 +34,9 @@ public:
 
 ## OPTIMAL APPROACH:
 
-Use hash HashMap to store previously seen numbers.
+"Use hash HashMap to store previously seen numbers.
 Time complexity = O(n)
-Space complexity = O(n)
+Space complexity = O(n)"
 ```cpp
 class Solution {
 public:
