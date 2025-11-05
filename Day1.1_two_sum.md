@@ -35,6 +35,7 @@ public:
 Use hash HashMap to store previously seen numbers.
 Time complexity = O(n)
 Space complexity = O(n)
+```cpp
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
@@ -54,7 +55,7 @@ public:
         return ans;
     }
 };
-
+```
 ## WHAT I LEARNED
 1. Importance of HashMap (since it reduces the time complexity by checking if its complement already exists)
 2. It handles duplicates.
