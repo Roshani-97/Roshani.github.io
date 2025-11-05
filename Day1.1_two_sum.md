@@ -31,12 +31,10 @@ public:
     }
 };
 ```
-
-## OPTIMAL APPROACH:
-
-"Use hash HashMap to store previously seen numbers.
+## OPTIMAL APPROACH
+Use hash HashMap to store previously seen numbers.
 Time complexity = O(n)
-Space complexity = O(n)"
+Space complexity = O(n)
 ```cpp
 class Solution {
 public:
