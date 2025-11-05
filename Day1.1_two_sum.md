@@ -31,6 +31,7 @@ public:
     }
 };
 ```
+
 ## OPTIMAL APPROACH:
 Use hash HashMap to store previously seen numbers.
 Time complexity = O(n)
