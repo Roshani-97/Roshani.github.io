@@ -11,7 +11,7 @@ Given an array of integers 'nums' and an integer 'target', return indices of the
 Then, we run a for loop within a while loop, checking the condition that the sum equals the target sum.
 If it does, we store the index of that element in the ans vector. After completing the loop, we return ans."
 "Since the time complexity of the code is (O(n*n)), which gives TLE. Hence, we look for an optimal approach.
-
+```cpp
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
@@ -30,7 +30,7 @@ public:
         return ans;
     }
 };
-
+```
 ## OPTIMAL APPROACH:
 Use hash HashMap to store previously seen numbers.
 Time complexity = O(n)
